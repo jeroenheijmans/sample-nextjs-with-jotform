@@ -2,6 +2,8 @@
 
 This is a sample NextJS application which demonstrates integration of [Jotform](https://www.jotform.com/), a paid SAAS tool to create web forms.
 
+Latest production version can be viewed online at [sample-nextjs-with-jotform.vercel.app](https://sample-nextjs-with-jotform.vercel.app/).
+
 ## ⚠ Warning about lack of React support
 
 There seemingly is no great Jotform-supported React or NextJS support.
