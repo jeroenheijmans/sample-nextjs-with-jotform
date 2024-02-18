@@ -28,7 +28,3 @@ npm run dev
 
 Possibly more instructions are forthcoming.
 To integrate your own Jotform forms you'll need to change the code a bit.
-
-## Documentation
-
-- [Jotform React library](https://github.com/sbayd/jotform-react)
