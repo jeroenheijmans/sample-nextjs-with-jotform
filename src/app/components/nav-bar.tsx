@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navLinkStyle =
-  'border-b-2 border-gray-600/20 p-1 text-indigo-600 hover:border-gray-800 hover:text-indigo-800';
+  'border-b-2 border-gray-600/20 p-1 text-emerald-600 hover:border-gray-800 hover:text-emerald-800';
 
 export default function NavBar() {
   const pathname = usePathname();
@@ -18,16 +18,10 @@ export default function NavBar() {
         Home
       </Link>
       <Link
-        className={`${navLinkStyle} ${pathname === '/pop-up-demo' ? 'border-gray-800/100' : ''}`}
-        href='/pop-up-demo'
+        className={`${navLinkStyle} ${pathname === '/cards-demo' ? 'border-gray-800/100' : ''}`}
+        href='/cards-demo'
       >
-        Pop-up Demo
-      </Link>
-      <Link
-        className={`${navLinkStyle} ${pathname === '/pop-over-demo' ? 'border-gray-800/100' : ''}`}
-        href='/pop-over-demo'
-      >
-        Pop-over Demo
+        Cards Demo
       </Link>
     </nav>
   );

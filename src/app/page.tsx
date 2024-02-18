@@ -13,7 +13,7 @@ export default function Home() {
           application. Different pages will have different examples of forms
           created with{' '}
           <Link
-            className='text-indigo-600 underline hover:text-indigo-800'
+            className='text-emerald-600 underline hover:text-emerald-800'
             href='https://www.jotform.com/'
             target='_blank'
           >

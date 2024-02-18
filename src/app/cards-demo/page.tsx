@@ -1,11 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import dynamic from 'next/dynamic';
 import Water from '../../../public/water.jpg';
-
-const AboutForm = dynamic(() => import('../components/about-form'), {
-  ssr: false,
-});
+import SurveyForm from '../components/survey-form';
 
 export default function Details() {
   return (
@@ -22,7 +18,7 @@ export default function Details() {
         </Link>
         .
       </p>
-      <AboutForm />
+      <SurveyForm />
       <p className='py-4'>
         In addition to the form above, here is some content to fill up the page
         and make it look like a <strong>real</strong> website.

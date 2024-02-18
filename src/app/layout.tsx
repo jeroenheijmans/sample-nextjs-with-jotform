@@ -28,7 +28,7 @@ export default function RootLayout({
               <div className='mx-auto mt-8 max-w-[800px]'>
                 <div className='flex gap-4 border-t border-t-stone-400/50 p-2'>
                   <Link
-                    className='text-indigo-800 underline opacity-50 hover:text-indigo-950 hover:opacity-100'
+                    className='text-emerald-800 underline opacity-50 hover:text-emerald-950 hover:opacity-100'
                     href='https://github.com/jeroenheijmans/sample-nextjs-with-jotform'
                     target='_blank'
                   >
