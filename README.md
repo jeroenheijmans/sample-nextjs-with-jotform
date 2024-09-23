@@ -4,6 +4,10 @@ This is a sample NextJS application which demonstrates integration of [Jotform](
 
 Latest production version can be viewed online at [sample-nextjs-with-jotform.vercel.app](https://sample-nextjs-with-jotform.vercel.app/).
 
+## ⚠️ Notice about updates
+
+Note that this repository is provided "as-is" and will most likely not receive any (security) updates.
+
 ## ⚠ Warning about lack of React support
 
 There seemingly is no great Jotform-supported React or NextJS support.
